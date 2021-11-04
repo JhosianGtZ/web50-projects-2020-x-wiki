@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+
+.wiki {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.wiki:hover {
+    color: #f0f0f0d3;
+    text-decoration: none;
+}
+
+.container-img {
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-img img {
+    width: 350px;
+    height: 350px;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.paragraph {
+
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.paragraph h2, h3{
+    margin-top: 2rem;
+}
+
+.paragraph h2{
+    font-size: 2rem;
+}
+
+.paragraph p {
+    margin-top: 1rem;
+    line-height: 2rem;
+}

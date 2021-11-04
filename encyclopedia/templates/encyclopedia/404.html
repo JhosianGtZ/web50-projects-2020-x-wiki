@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+
+{% block title %}
+    {{entryTitle}} not found!  
+{% endblock %}
+
+{% block body %}
+    <h1>{{ entryTitle }}?</h1>
+
+
+    <div class="container-img">
+        <img class="img" src="{% static 'encyclopedia/images/404 Error-bro.png' %}" alt="404 Error-bro">
+
+        <h2>It looks like this page doesn't exist!</h2>
+
+        <h3 class="h3_link"> Do you want to create a <a href="{% url 'newPage' %}">new page</a> on this topic?</h3>
+    </div>
+    
+
+{% endblock %}
